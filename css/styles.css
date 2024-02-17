@@ -34,10 +34,8 @@ a:active{
     background-color: transparent;
 }
 .containerbox{
-    white-space: nowrap;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .linkbox{
     margin:10px;
@@ -110,9 +108,7 @@ a:active{
     .col-12 {width: 100%;}
 
     .containerbox{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
+        grid-template-columns: 1fr 5fr 3fr;
     }
 }
 
